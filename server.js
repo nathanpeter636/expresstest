@@ -200,7 +200,7 @@ router.delete("/orders/:id", (req, res) => {
 
 // deal with any unhandled urls on the api endpoint - place at end
 router.get("/*", (req, res) => {
-  return res.json({ result: "not a valid endpoint" });
+  return res.json({ result: "not a valid endpoint buddy" });
 });
 
 // ditto for app route
